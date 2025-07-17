@@ -11,6 +11,8 @@ in your web browser during the course.
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hyperspy/MM2025_HyperSpy_Workshop/HEAD)
 
+Otherwise, follow the [Software Installation](#software-installation) section to download the files and install HyperSpy.
+
 ## Venue
 
 Room 151 A, Salt Palace Convention Center, Salt Lake City, UT. 
