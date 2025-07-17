@@ -1,5 +1,3 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hyperspy/MM2025_HyperSpy_Workshop/HEAD)
-
 # 2025 Microscopy & Microanalysis HyperSpy Workshop
 
 Training material used during the 2025 HyperSpy Workshop at the Microscopy and Microanalysis meeting in Salt Lake City, UT
@@ -7,12 +5,11 @@ in the short course _X-10 EM Data Analysis with the HyperSpy Ecosystem_.
 
 ## ✨ Try it in your browser ✨
 
-(Unfortunately, does not work for the `pyxem` and `eXSpy` notebooks)
+While we recommend downloading this repository and running the code locally (since that will be how you use
+HyperSpy on your own data), you can use the following link to interactively run these tutorial files
+in your web browser during the course.
 
-> [!CAUTION]
-> This needs to be updated
-
-➡️ **[https://francisco-dlp.github.io/EMC2024_HyperSpy_Workshop_jupyterlite/](https://francisco-dlp.github.io/EMC2024_HyperSpy_Workshop_jupyterlite/)**
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hyperspy/MM2025_HyperSpy_Workshop/HEAD)
 
 ## Venue
 
