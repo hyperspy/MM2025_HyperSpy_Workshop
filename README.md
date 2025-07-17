@@ -1,64 +1,70 @@
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hyperspy/EMC2024_HyperSpy_Workshop/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/hyperspy/MM2025_HyperSpy_Workshop/HEAD)
 
-# EMC2024 HyperSpy Workshop
+# 2025 Microscopy & Microanalysis HyperSpy Workshop
 
-Training material used during the 2024 HyperSpy Workshop at the European Microscopy Congress 2024 in Copenhagen.
+Training material used during the 2025 HyperSpy Workshop at the Microscopy and Microanalysis meeting in Salt Lake City, UT
+in the short course _X-10 EM Data Analysis with the HyperSpy Ecosystem_.
 
 ## ✨ Try it in your browser ✨
 
-(Not working for the pyxem and eXSpy notebooks)
+(Unfortunately, does not work for the `pyxem` and `eXSpy` notebooks)
+
+> [!CAUTION]
+> This needs to be updated
 
 ➡️ **[https://francisco-dlp.github.io/EMC2024_HyperSpy_Workshop_jupyterlite/](https://francisco-dlp.github.io/EMC2024_HyperSpy_Workshop_jupyterlite/)**
 
 ## Venue
 
-Haderup auditoriet, Panum Instituttet, Blegdamsvej 3, 2200 Kbh. N. (Careful, not CFIM, but Haderup auditoriet).
+Room 151 A, Salt Palace Convention Center, Salt Lake City, UT. 
 
 ## Agenda
 
-The workshop will take place from 9:00 to 17:00 CEST on Sunday the 25th of September.
+The workshop will take place from 8:30 to 17:00 MDT on Sunday the July 27, 2025. The program will officially
+start at 8:45, but the instructors will be present from 8:00 onwards to assist anyone with installation issues
+before the course begins.
 
-| Time         | Activity                                                                   | Presenter              |
-|--------------|----------------------------------------------------------------------------|------------------------|
-| 8:30-9:00    | Welcome coffee/tea                                                         |                        |
-| 9:00-9:15    | Introduction talk                                                          | Francisco de la Peña   |
-| 9:15-10:30   | 1. Getting started                                                         | Magnus Nord            |
-| 10:30-10:45  | Coffee break                                                               |                        |
-| 10:45-11:30  | 2. Decomposition and BSS                                                   | Francisco de la Peña   |
-| 11:30-12:15  | 3. Curve fitting                                                           | Francisco de la Peña   |
-| 12:15-13:00  | 4. EDX with [eXSpy](https://hyperspy.org/exspy/)                           | Katherine MacArthur    |
-| 13:00-13:45  | Lunch break                                                                |                        |
-| 13:45-14:30  | 5. EELS with [eXSpy](https://hyperspy.org/exspy/)                          | Francisco de la Peña   |
-| 14:30-15:15  | 6. Cathodoluminescence with [LumiSpy](https://docs.lumispy.org)            | Gunnar Kusch           |
-| 15:15-15:30  | Coffee break                                                               |                        |
-| 15:30-16:15  | 7. Lazy signals for Big Data                                               | Magnus Nord            |
-| 16:15-17:00  | 8. 4D-STEM with [Pyxem](https://pyxem.readthedocs.io/en/stable/index.html) | Magnus Nord            |
+| Time         | Length | Activity                                                                   | Presenter            |
+|--------------|--------|----------------------------------------------------------------------------|----------------------|
+| 8:30-8:45    | 15m    | Welcome / installation help                                                |                      |
+| 8:45-9:00    | 15m    | Introduction talk                                                          | Josh Taillon         |
+| 9:00-10:15   | 1h15m  | 1. Getting started / HyperSpy Basics                                       | Josh Taillon         |
+| 10:15-10:30  | 15m    | Coffee break                                                               |                      |
+| 10:30-11:15  | 45m    | 2. Decomposition and BSS                                                   | Josh Taillon         |
+| 11:15-12:00  | 45m    | 3. Curve fitting                                                           | Carter Francis       |
+| 12:00-12:45  | 45m    | 4. EDX with [eXSpy](https://hyperspy.org/exspy/)                           | Carter Francis       |
+| 12:45-13:30  | 45m    | Lunch break                                                                |                      |
+| 13:30-14:15  | 45m    | 5. EELS with [eXSpy](https://hyperspy.org/exspy/)                          | Josh Taillon         |
+| 14:15-15:00  | 45m    | 6. Cathodoluminescence with [LumiSpy](https://docs.lumispy.org)            | Josh / Carter        |
+| 15:00-15:30  | 30m    | Coffee break                                                               |                      |
+| 15:30-16:15  | 45m    | 7. Lazy signals for Big Data                                               | Carter Francis       |
+| 16:15-17:00  | 45m    | 8. 4D-STEM with [Pyxem](https://pyxem.readthedocs.io/en/stable/index.html) | Carter Francis       |
 
 The numbered activities correspond to the tutorials in the folders of this repository.
 
 ## Instructors
 
-- Francisco de la Peña (University of Lille)
-- Gunnar Kusch (University of Cambridge)
-- Håkon Wiik Ånes (xnovotech)
-- Hedda Christine Soland (Lund University)
-- Katherine MacArthur (Oxford Instruments)
-- Kristian Tveitstol (NTNU)
-- Magnus Nord (NTNU)
-- Sivert J.V. Dagenborg (NTNU)
+- Joshua Taillon ([DataSophos, LLC](https://datasophos.co))
+- Carter Francis (Direct Electron)
+- Tina Bergh (NTNU) 
+- Nick Hagopian (UW Madison)
+- Geri Topore (Imperial College London)
 
 ## Downloading large files
+
+> [!CAUTION]
+> This needs to be updated
 
 Download the zip-file from this link: https://filesender.sikt.no/?s=download&token=000ee6a7-008e-4a63-aada-67706ef762bc
 
 ## Software installation
 
-To use the Jupyter Notebooks in this repository, you need to install some software packages first. It installation instructions for beginners and advanced users can be found below.
+To use the Jupyter Notebooks in this repository, you need to install some software packages first. Installation instructions for beginners and advanced users can be found below.
 
 
 ### Simple installation instructions (best for Python beginners)
 
-The easiest way to install all the software required to run the Jupyter Notebooks in this repository is to [install the HyperSpy Bundle](https://hyperspy.org/hyperspy-bundle/install.html) that you can download from [here](https://github.com/hyperspy/hyperspy-bundle/releases/latest).
+The easiest way to install all the software required to run the Jupyter Notebooks in this repository is to [install the HyperSpy Bundle](https://hyperspy.org/hyperspy-bundle/install.html), which can be downloaded from [here](https://github.com/hyperspy/hyperspy-bundle/releases/latest).
 
 
 ### Advanced installation instructions (for advanced users)
@@ -68,18 +74,12 @@ If you prefer to customize your installation, we suggest installing a conda dist
 
 ```bash
 conda install nb_conda_kernels jupyterlab start_jupyter_cm ipympl -c conda-forge
-conda create -n hyperspy_EMC2024 python=3.11 hyperspy pyxem ipympl exspy lumispy ipykernel -c conda-forge
+conda create -n hyperspy_MM2025 python=3.11 hyperspy pyxem ipympl exspy lumispy ipykernel -c conda-forge
 ```
 
-To add Jupyter to the context menu of your file browser execute the following command:
+To use HyperSpy in JupyterLab, start Jupyter Lab and choose the `Python [conda env:hyperspy_MM2025]` kernel. Alternatively, start JupyterLab from the `hyperspy_MM2025` environment as follows:
 
 ```bash
-start_jupyter_cm
-```
-
-To use HyperSpy in JupyterLab, start Jupyter Lab and choose the `Python [conda env:hyperspy_EMC2024]` kernel. Alternatively, start JupyterLab from the `hyperspy_EMC2024` environment as follows:
-
-```bash
-conda activate hyperspy_EMC2024
+conda activate hyperspy_MM2025
 jupyter lab
 ```
